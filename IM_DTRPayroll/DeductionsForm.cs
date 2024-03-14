@@ -21,5 +21,10 @@ namespace IM_DTRPayroll
         {
             this.Close();
         }
+
+        private void DeductionsForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

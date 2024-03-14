@@ -40,8 +40,8 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -183,6 +183,14 @@
             this.panel1.Size = new System.Drawing.Size(420, 132);
             this.panel1.TabIndex = 14;
             // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.DarkOrange;
+            this.panel5.Location = new System.Drawing.Point(0, 0);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(10, 132);
+            this.panel5.TabIndex = 8;
+            // 
             // panel4
             // 
             this.panel4.Controls.Add(this.button1);
@@ -192,14 +200,6 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(420, 116);
             this.panel4.TabIndex = 17;
-            // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.Color.DarkOrange;
-            this.panel5.Location = new System.Drawing.Point(0, 0);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(10, 132);
-            this.panel5.TabIndex = 8;
             // 
             // Admin_LogIn
             // 
@@ -211,6 +211,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel4);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Admin_LogIn";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Admin_LogIn";

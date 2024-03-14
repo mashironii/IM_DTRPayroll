@@ -42,10 +42,10 @@
             this.txtbx_User = new System.Windows.Forms.TextBox();
             this.txtbx_Pass = new System.Windows.Forms.TextBox();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.label7 = new System.Windows.Forms.Label();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.panel6 = new System.Windows.Forms.Panel();
@@ -208,15 +208,14 @@
             this.panel3.Size = new System.Drawing.Size(557, 291);
             this.panel3.TabIndex = 25;
             // 
-            // label7
+            // comboBox2
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Arial Rounded MT Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(25, 116);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(245, 37);
-            this.label7.TabIndex = 4;
-            this.label7.Text = "Payroll Period:";
+            this.comboBox2.Font = new System.Drawing.Font("Verdana", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(283, 156);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(247, 37);
+            this.comboBox2.TabIndex = 8;
             // 
             // comboBox1
             // 
@@ -237,14 +236,15 @@
             this.label8.TabIndex = 4;
             this.label8.Text = "Deduction Type:";
             // 
-            // comboBox2
+            // label7
             // 
-            this.comboBox2.Font = new System.Drawing.Font("Verdana", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(283, 156);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(247, 37);
-            this.comboBox2.TabIndex = 8;
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Arial Rounded MT Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(25, 116);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(245, 37);
+            this.label7.TabIndex = 4;
+            this.label7.Text = "Payroll Period:";
             // 
             // label6
             // 
@@ -291,6 +291,7 @@
             this.Name = "DeductionsForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DeductionsForm";
+            this.Load += new System.EventHandler(this.DeductionsForm_Load);
             this.panel4.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
