@@ -86,6 +86,7 @@
             this.txtbx_AdminID.Name = "txtbx_AdminID";
             this.txtbx_AdminID.Size = new System.Drawing.Size(361, 35);
             this.txtbx_AdminID.TabIndex = 5;
+            this.txtbx_AdminID.Text = "admin";
             // 
             // lblUserID
             // 
@@ -105,6 +106,7 @@
             this.txtbx_AdminPass.PasswordChar = '*';
             this.txtbx_AdminPass.Size = new System.Drawing.Size(361, 35);
             this.txtbx_AdminPass.TabIndex = 7;
+            this.txtbx_AdminPass.Text = "1234";
             // 
             // lblUserPass
             // 
